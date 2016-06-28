@@ -1,0 +1,52 @@
+<div ng-init="doctorLoad()">
+<div style="min-height:70px;"></div>
+<section class="text-in-center" style=" background-image: url(img/all/newmessage.jpg);background-size: cover; min-height:120px; position:relative;background-color: #91a1a1;">
+  <h1 class="text-center" style="color:#fff; font-weight: 600;">Book Appointment</h1>
+  <span class="arrow-top"></span></section>
+<div class="arrow-btm"></div>
+
+<section style="margin:20px 0 70px 0;">
+  <div class="container text-center" style=" padding:0 40px;">
+    <div class="row">
+		<div ng-show="msgd" class="alert alert-danger alert-dismissible" role="alert">						 
+			<strong >{{reg_msg}}</strong>
+		</div>
+		<div ng-show="msgs" class="alert alert-success alert-dismissible" role="alert">						 
+			<strong >{{reg_msg}}</strong>
+		</div>
+		<div class="col-md-7 panel panel-default" style="max-height:500px;min-height:500px;">
+			<div class="panel-heading">Select Date</div>
+			<div class="panel-body">
+				 <div style="display:inline-block; min-height:290px;">
+				  <uib-datepicker ng-click="getDate(dt)" ng-model="dt" class="well well-sm" datepicker-options="options"></uib-datepicker>
+				</div>
+			
+			</div>
+		</div>
+		<div class="col-md-5 panel panel-default" style="max-height:500px;min-height:500px;overflow-y:scroll;">
+			<div class="panel-heading">Slots on {{selectedDate}}</div>
+			<div class="panel-body">
+				<button class="btn btn-info col-md-12" ng-click="selectSlot(selectedDate,slot.slot)" style="margin:1%;" ng-repeat="slot in slotsList" >{{slot.slot}}</button>
+			</div>
+		</div>
+		<div class="col-md-6 panel panel-default" style="margin:0 25%">
+			<div class="panel-heading">Details</div>
+			<div class="panel-body">
+				<form name="bookingForm">
+					<input type="text" class="form-control" name="date" ng-model="booking.date" placeholder="Booking Date" required readonly />
+					<input type="text" class="form-control" name="slot" ng-model="booking.slot" placeholder="Slot" required readonly />
+					<input type="text" class="form-control" name="ctype" ng-model="booking.ctype" placeholder="Consulting Type" required readonly />
+					<input type="text" class="form-control" name="name" ng-model="booking.name" placeholder="Name" required  />
+					<input type="email" class="form-control" name="email" ng-model="booking.email" placeholder="Email" required  />
+					<input type="text" class="form-control" name="mobile" ng-model="booking.mobile" placeholder="Mobile" required  />
+					<textarea class="form-control" name="reason" ng-model="booking.reason" required maxlength="2000"></textarea>
+					<button class="btn btn-info" data-ng-disabled="bookingForm.$invalid" ng-click="bookapt(booking)">Book</button>
+				<form>
+			</div>
+			<div class="panel-footer"></div>
+		</div>
+    </div>
+  </div>
+</section>
+
+</div>

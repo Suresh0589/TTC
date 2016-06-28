@@ -1,0 +1,24 @@
+
+.row1{width:100%;}	 
+
+
+@media all and (min-width: 320px) {
+	
+.row1{width:320px; background:#006666;}
+
+}
+	 
+@media all and (min-width: 768px) {
+	
+.row1{width:768px; background:#99FF00;}	
+
+ }
+ 
+@media all and (min-width: 1024px) {
+	
+.row1{width:1024px; background:#FF0000 !important;}	
+
+ }
+ 
+ 
+ 

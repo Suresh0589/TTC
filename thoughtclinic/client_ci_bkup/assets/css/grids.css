@@ -1,0 +1,37 @@
+ .search-icon{ margin-top:60px;}
+.search{ background:url(../images/search-bg.png); border-radius:1.8em; padding:35px 0px 35px 0px; margin-bottom:10px;}
+
+.city{ border-radius:0px !important; height:40px !important; box-shadow:none !important; color:#a6a4a4 !important; border:1px solid #5b5a5b !important;}
+.city1{    border:1px solid #5b5a5b !important; }
+.search-btn{ background:#5b5a5b !important; height:40px !important; border-radius:0px !important; font-size:12px !important;  color:#fff !important; width:100%; padding-left:0px !important;}
+
+.no-lp-m{ padding-left:0px !important; margin-left:0px !important; }
+
+@media screen and (min-width: 768px)  {
+	
+ .search-icon{ margin-top:60px;}
+.search{ background:url(../images/search-bg.png); border-radius:5.8em; padding:35px 0px 35px 0px; margin-bottom:10px;}
+
+.city{ border-radius:0px !important; height:40px !important; box-shadow:none !important; color:#a6a4a4 !important; border:1px solid #5b5a5b !important;}
+.city1{   border-left:0px !important; }
+.search-btn{ background:#5b5a5b !important; height:40px !important; border-radius:0px !important; font-size:14px !important;  color:#fff !important;}
+.no-lp-m{ padding-left:15px !important; margin-left:auto !important; }
+
+ }
+ 
+ 
+ 
+@media screen and (min-width: 1024px) {
+	
+	 .search-icon{ margin-top:60px;}
+.search{ background:url(../images/search-bg.png); border-radius:5.8em; padding:35px 0px 35px 0px; margin-bottom:10px;}
+
+.city{ border-radius:0px !important; height:40px !important; box-shadow:none !important; color:#a6a4a4 !important; border:1px solid #5b5a5b !important;}
+.city1{   border-left:0px !important; }
+.search-btn{ background:#5b5a5b !important; height:40px !important; border-radius:0px !important; font-size:14px !important;  color:#fff !important;}
+.no-lp-m{ padding-left:15px !important; margin-left:auto !important; }
+}
+ 
+ 
+  
+

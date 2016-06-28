@@ -1,0 +1,42 @@
+[08-Oct-2015 12:57:10 Asia/Kolkata] PHP Fatal error:  Call to a member function getDetails() on a non-object in /home/oristep/public_html/demos/clinicapp/application/admin/controllers/locations.php on line 27
+[08-Oct-2015 07:30:03 UTC] PHP Parse error:  syntax error, unexpected 'locations_model' (T_STRING) in /home/oristep/public_html/demos/clinicapp/application/admin/models/locations_model.php on line 1
+[08-Oct-2015 13:00:22 Asia/Kolkata] PHP Fatal error:  Call to a member function getDetails() on a non-object in /home/oristep/public_html/demos/clinicapp/application/admin/controllers/locations.php on line 27
+[08-Oct-2015 13:00:26 Asia/Kolkata] PHP Fatal error:  Call to a member function getDetails() on a non-object in /home/oristep/public_html/demos/clinicapp/application/admin/controllers/locations.php on line 27
+[08-Oct-2015 13:01:03 Asia/Kolkata] PHP Fatal error:  Call to a member function getDetails() on a non-object in /home/oristep/public_html/demos/clinicapp/application/admin/controllers/locations.php on line 27
+[08-Oct-2015 13:01:04 Asia/Kolkata] PHP Fatal error:  Call to a member function getDetails() on a non-object in /home/oristep/public_html/demos/clinicapp/application/admin/controllers/locations.php on line 27
+[08-Oct-2015 13:01:12 Asia/Kolkata] PHP Fatal error:  Call to a member function getDetails() on a non-object in /home/oristep/public_html/demos/clinicapp/application/admin/controllers/locations.php on line 27
+[08-Oct-2015 13:01:18 Asia/Kolkata] PHP Fatal error:  Call to a member function getDetails() on a non-object in /home/oristep/public_html/demos/clinicapp/application/admin/controllers/locations.php on line 27
+[08-Oct-2015 13:06:45 Asia/Kolkata] PHP Fatal error:  Call to a member function getDetailsByName() on a non-object in /home/oristep/public_html/demos/clinicapp/application/admin/controllers/locations.php on line 45
+[08-Oct-2015 13:07:10 Asia/Kolkata] PHP Fatal error:  Call to undefined method locations_model::getDetailsByName() in /home/oristep/public_html/demos/clinicapp/application/admin/controllers/locations.php on line 45
+[08-Oct-2015 13:08:27 Asia/Kolkata] PHP Fatal error:  Call to undefined method locations_model::getDetailsByName() in /home/oristep/public_html/demos/clinicapp/application/admin/controllers/locations.php on line 45
+[08-Oct-2015 13:08:31 Asia/Kolkata] PHP Fatal error:  Call to undefined method locations_model::getDetailsByName() in /home/oristep/public_html/demos/clinicapp/application/admin/controllers/locations.php on line 45
+[08-Oct-2015 13:17:48 Asia/Kolkata] PHP Fatal error:  Call to a member function modify() on a non-object in /home/oristep/public_html/demos/clinicapp/application/admin/controllers/locations.php on line 55
+[21-Oct-2015 12:48:50 UTC] PHP Parse error:  syntax error, unexpected ''website'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in /home/oristep/public_html/demos/clinicapp/application/admin/controllers/clinics.php on line 156
+[21-Oct-2015 13:06:37 UTC] PHP Fatal error:  Cannot redeclare clinics::edit() in /home/oristep/public_html/demos/clinicapp/application/admin/controllers/clinics.php on line 53
+[28-Oct-2015 03:25:23 UTC] PHP Fatal error:  Call to undefined function phpdate_default_timezone_set() in /home/oristep/public_html/demos/clinicapp/admin/index.php on line 1
+[28-Oct-2015 12:50:49 Asia/Kolkata] PHP Parse error:  syntax error, unexpected '}', expecting variable (T_VARIABLE) or '$' in /home/oristep/public_html/demos/clinicapp/application/admin/controllers/clinics.php on line 107
+[28-Oct-2015 13:55:02 Asia/Kolkata] PHP Parse error:  syntax error, unexpected '`', expecting '(' in /home/oristep/public_html/demos/clinicapp/application/admin/controllers/clinics.php on line 33
+[28-Oct-2015 13:55:22 Asia/Kolkata] PHP Fatal error:  Call to a member function selectClinicDrs() on a non-object in /home/oristep/public_html/demos/clinicapp/application/admin/controllers/clinics.php on line 39
+[06-Nov-2015 17:15:09 Asia/Kolkata] PHP Fatal error:  Call to undefined method CI_Session::uset_userdata() in /home/oristep/public_html/demos/clinicapp/application/admin/controllers/clinics.php on line 365
+[28-Jan-2016 20:45:04 Asia/Kolkata] PHP Fatal error:  Using $this when not in object context in /home/oristep/public_html/demos/kandie/application/controllers/districts.php on line 11
+[28-Jan-2016 20:52:52 Asia/Kolkata] PHP Fatal error:  Using $this when not in object context in /home/oristep/public_html/demos/kandie/application/controllers/districts.php on line 11
+[28-Jan-2016 21:10:57 Asia/Kolkata] PHP Fatal error:  Using $this when not in object context in /home/oristep/public_html/demos/kandie/application/controllers/districts.php on line 11
+[28-Jan-2016 21:18:35 Asia/Kolkata] PHP Fatal error:  Using $this when not in object context in /home/oristep/public_html/demos/kandie/application/controllers/districts.php on line 11
+[28-Jan-2016 21:19:01 Asia/Kolkata] PHP Fatal error:  Using $this when not in object context in /home/oristep/public_html/demos/kandie/application/controllers/districts.php on line 11
+[28-Jan-2016 22:17:14 Asia/Kolkata] PHP Fatal error:  Call to undefined method Users_model::allUsernames() in /home/oristep/public_html/demos/kandie/application/controllers/users.php on line 50
+[28-Jan-2016 22:17:15 Asia/Kolkata] PHP Fatal error:  Call to undefined method Users_model::allUsernames() in /home/oristep/public_html/demos/kandie/application/controllers/users.php on line 50
+[28-Jan-2016 22:17:25 Asia/Kolkata] PHP Fatal error:  Call to undefined method Users_model::allUsernames() in /home/oristep/public_html/demos/kandie/application/controllers/users.php on line 50
+[29-Jan-2016 07:42:54 Asia/Kolkata] PHP Fatal error:  Using $this when not in object context in /home/oristep/public_html/demos/kandie/application/controllers/districts.php on line 11
+[29-Jan-2016 11:47:47 Asia/Kolkata] PHP Fatal error:  Using $this when not in object context in /home/oristep/public_html/demos/kandie/application/controllers/districts.php on line 11
+[29-Jan-2016 12:15:01 Asia/Kolkata] PHP Fatal error:  Using $this when not in object context in /home/oristep/public_html/demos/kandie/application/controllers/districts.php on line 11
+[17-Mar-2016 09:19:22 Asia/Kolkata] PHP Fatal error:  Class 'Users_model' not found in /home/oristep/public_html/demos/kandie/system/core/Loader.php on line 605
+[17-Mar-2016 10:00:19 Asia/Kolkata] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/oristep/public_html/demos/kandie/application/controllers/users.php on line 453
+[17-Mar-2016 10:00:25 Asia/Kolkata] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/oristep/public_html/demos/kandie/application/controllers/users.php on line 453
+[17-Mar-2016 10:00:28 Asia/Kolkata] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/oristep/public_html/demos/kandie/application/controllers/users.php on line 453
+[17-Mar-2016 10:00:34 Asia/Kolkata] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/oristep/public_html/demos/kandie/application/controllers/users.php on line 453
+[17-Mar-2016 10:00:40 Asia/Kolkata] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/oristep/public_html/demos/kandie/application/controllers/users.php on line 453
+[17-Mar-2016 10:01:02 Asia/Kolkata] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/oristep/public_html/demos/kandie/application/controllers/users.php on line 453
+[17-Mar-2016 10:07:11 Asia/Kolkata] PHP Fatal error:  Class 'Users_model' not found in /home/oristep/public_html/demos/kandie/system/core/Loader.php on line 605
+[17-Mar-2016 10:07:21 Asia/Kolkata] PHP Fatal error:  Class 'Users_model' not found in /home/oristep/public_html/demos/kandie/system/core/Loader.php on line 605
+[17-Mar-2016 10:08:16 Asia/Kolkata] PHP Fatal error:  Cannot redeclare Users_model::getDetailsByEmpCode() in /home/oristep/public_html/demos/kandie/application/models/users_model.php on line 88
+[17-Mar-2016 10:08:18 Asia/Kolkata] PHP Fatal error:  Cannot redeclare Users_model::getDetailsByEmpCode() in /home/oristep/public_html/demos/kandie/application/models/users_model.php on line 88

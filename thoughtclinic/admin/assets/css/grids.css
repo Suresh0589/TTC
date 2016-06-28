@@ -1,0 +1,34 @@
+.testm-bg{ border-bottom:1px solid #ccc; border-right:0px;}
+.btn1-bg{ width:100% !important; border-radius:0px !important; line-height:60px !important;  color:#fff; font-size:19px; font-weight:normal !important; border:1px solid #efefef; margin-bottom:5px !important;}
+#cssmenu {
+   margin-top:-33px;
+}
+.tryit{ margin-top:0px !important; }
+
+@media screen and (min-width: 768px)  {
+.testm-bg{ border-right:1px solid #ccc; border-bottom:0px;}
+.btn1-bg{ width:98% !important; border-radius:0px !important; line-height:85px !important;  color:#fff; font-size:19px; font-weight:normal !important; border:1px solid #efefef; margin-bottom:5px !important;}
+#cssmenu {
+   margin-top:23px;
+}
+.tryit{ margin-top:18px !important; }
+}
+ 
+ 
+ 
+@media screen and (min-width: 1024px) {
+
+.widely-bg h1 b{ margin-right:5%;}
+.testm{ padding-left:16% !important; padding-right:16% !important;}
+.testm-bg{ border-right:1px solid #ccc; border-bottom:0px;}
+
+.btn1-bg{ width:98% !important; border-radius:0px !important; line-height:85px !important; color:#fff; font-size:19px; font-weight:normal !important; border:1px solid #efefef; margin-bottom:5px !important;}
+#cssmenu {
+   margin-top:23px;
+}
+.tryit{ margin-top:18px !important; }
+}
+ 
+ 
+  
+
